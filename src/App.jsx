@@ -5,6 +5,10 @@ import DeepEarth from "./images/desktop/image-deep-earth.jpg"
 import NightArcade from "./images/desktop/image-night-arcade.jpg"
 import SoccerTeam from "./images/desktop/image-soccer-team.jpg"
 import TheGrid from "./images/desktop/image-grid.jpg"
+import Above from "./images/desktop/image-from-above.jpg"
+import Pocket from "./images/desktop/image-pocket-borealis.jpg"
+import Curiosity from "./images/desktop/image-curiosity.jpg"
+import Fisheye from "./images/desktop/image-fisheye.jpg"
 
 
 function App() {
@@ -77,6 +81,7 @@ to their brand.
         <div className="rows">
         <div className="row1">
         <div className="card">
+          <div className="overlay"></div>
         <img src={DeepEarth} alt='deep earth'/>
         <h3>Deep earth</h3>
         </div>
@@ -85,6 +90,7 @@ to their brand.
         <h3>Night arcade</h3>
         </div>
         <div className="card3">
+        <div className="overlay"></div>
         <img src={SoccerTeam} alt='soccer team'/>
         <h3>Soccer team VR</h3>
         </div>
@@ -94,18 +100,27 @@ to their brand.
         </div>
 
         </div>
-        <div className="row2"></div>
+        <div className="row2">
+        <div className="card5">
+        <img src={Above} alt='from above'/>
+        <h3>From up above VR</h3>
         </div>
-      
+        <div className="card6">
+        <img src={Pocket} alt='pocket borealis'/>
+        <h3>Pocket borealis</h3>
+        </div>
+        <div className="card7">
+        <img src={Curiosity} alt='the curiosity'/>
+        <h3>The curiosity</h3>
+        </div>
+        <div className="card8">
+        <img src={Fisheye} alt='make it fisheye'/>
+        <h3>Make it fisheye</h3>
+        </div>
 
 
-Night arcade
-Soccer team VR
-The grid
-From up above VR
-Pocket borealis
-The curiosity
-Make it fisheye
+        </div>
+        </div>
         
       </div>
  
